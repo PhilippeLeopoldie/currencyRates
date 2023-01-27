@@ -1,0 +1,12 @@
+{
+  "disclaimer": "Usage subject to terms: https://openexchangerates.org/terms",
+  "license": "https://openexchangerates.org/license",
+  "timestamp": 1599004799,
+  "base": "USD",
+  "rates": {
+    "EUR": 0.838739,
+    "GBP": 0.746275,
+    "IDR": 14649.436556,
+    "SEK": 8.678161
+  }
+}
