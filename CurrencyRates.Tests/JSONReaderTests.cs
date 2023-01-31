@@ -7,7 +7,7 @@ namespace CurrencyRates.Tests
 {
   public class JSONReaderTests
   {
-    private string _dataDirectory = $"{Environment.CurrentDirectory}../../../../../data";
+    private readonly string _dataDirectory = $"{Environment.CurrentDirectory}../../../../../data";
 
     [Fact]
     public void should_read_first_file()
