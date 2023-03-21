@@ -10,7 +10,7 @@ namespace CurrencyRates
     private readonly string _dataDirectory;
     private readonly List<string> _ratesFilesList;
     
-    private ArgumentException SymbolNotFoundError(string symbol) => throw new ArgumentException($"Symbol '{symbol}' not found");
+    private void SymbolNotFoundError(string symbol) => throw new ArgumentException($"Symbol '{symbol}' not found");
     
     private Dictionary<string,double> Reader(string filesName) => JSONReader.GetRatesInCurrencyFile(_dataDirectory, filesName);
     
