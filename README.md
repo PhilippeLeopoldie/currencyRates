@@ -1,4 +1,4 @@
-# Assignment: Currency rates finder
+# ASSIGNMENT: Currency rates finder
 
 In this exercise you will build a couple of methods (in other words an API) that lets the user find, list and compare currencies over time.
 
